@@ -17,7 +17,7 @@
         <nav id="navbar-main" class="navbar d-flex flex-row align-items-center navbar-main navbar-expand-lg navbar-dark justify-content-between">
             <ul class="navbar-nav navbar-nav-hover flex-row align-items-center">
                 <li class="nav-item">
-                    <a href="https://github.com/tanviroy" class="nav-link" role="button">
+                    <a target="blank" href="https://github.com/tanviroy" class="nav-link" role="button">
                         <span class="nav-link-inner-text"> 
                             <img src="icons/github.png" height="20rem" width="20rem" /> GitHub 
                         </span>
@@ -25,7 +25,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="https://www.linkedin.com/in/tanvi-roy-051a36183/" class="nav-link" role="button">
+                    <a target="blank" href="https://www.linkedin.com/in/tanvi-roy-051a36183/" class="nav-link" role="button">
                         <img src="icons/linkedin-icon.png" height="20rem" width="20rem" /> Linkedin
                     </a>
                 </li>
@@ -33,7 +33,7 @@
         </nav>
     </header>
 
-    <section class="section section-lg bg-secondary overflow-hidden z-2">
+    <div class="section section-lg bg-secondary overflow-hidden" style="padding-bottom: 6rem;">
         <div>
             <ul class="icon-list">
                 <li class="icon-i"><a href=""></a><img src="icons/recycle_bin_empty-4.png" /></li>
@@ -41,7 +41,7 @@
                 <li class="icon-i"><a href="mailto:tanvi.roy_ug22@ashoka.edu.in"><img
                             src="icons/computer_explorer_cool-0.png" /></a></li>
                 <p class="icon-font"> Computer </p>
-                <li class="icon-i"><a href="https://github.com/tanviroy?tab=repositories"><img
+                <li class="icon-i"><a target="blank" href="https://github.com/tanviroy?tab=repositories"><img
                             src="icons/directory_control_panel-3.png" /></a></li>
                 <p class="icon-font"> Projects </p>
             </ul>
@@ -64,118 +64,245 @@
                     </div>
                 </div>
             </div>
-    </section>
+    </div>
 
-    <div class="col-12 col-lg-6 mb-4 mb-lg-0">
-        <div class="card card-tertiary">
-            <div class="card-header">
-                <span class="icon icon-xs w95-folder"></span>
-                <span class="ml-4">Default Tertiary Card Header Title</span>
-            </div>
-            <div class="card-body">
-                <iframe src="epic.gif" width="100%" height="100%"></iframe>
-                <div class="d-flex mt-3">
-                    <button class="btn btn-sm mr-2 btn-primary border-dark" type="button"><span
-                            class="btn-text">OK</span></button>
-                    <button class="btn btn-sm btn-primary" type="button"><span class="btn-text">Cancel</span></button>
+    <section style="margin-left: 2rem; padding: 0%; display: flex; flex-wrap: wrap; flex-direction: row; align-content: space-between;">
+        <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+            <div class="card card-tertiary">
+                <div class="card-header">
+                    <span class="icon icon-xs w95-folder"></span>
+                    <span class="ml-4"> <h4>About Me</h4></span>
+                </div>
+                <div class="card-body">
+                    <p style="font-weight: 600;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit iusto amet cum illo assumenda veniam, sapiente temporibus ipsam reiciendis molestiae? Saepe, quae placeat hic perspiciatis possimus rem vero est eum!</p>
+                    <div class="d-flex mt-3">
+                        <button class="btn btn-sm mr-2 btn-primary border-dark" type="button"><span
+                                class="btn-text">OK</span></button>
+                        <button class="btn btn-sm btn-primary" type="button"><span class="btn-text">Cancel</span></button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+        <div class="z-4" id="app" style="height: 100vh; margin-top: -30%; margin-left: 75%;">
+            <!-- Webamp will attempt to center itself within this div -->
+        </div>
+    </section>
 
-    <div class="p-5 bg-secondary">
+<section class="section section-lg bg-secondary overflow-hidden" style="margin-top: -15%; margin-left: 2rem; display: flex; flex-wrap: wrap; flex-direction: row; align-content: space-between;">
+    <div class="card card-tertiary" style="width: 30%; height: 24rem !important">
+            <div class="card-header text-center">
+                <span>Welcome to my Website!</span>
+            </div>
+        <div class="card-body">
+            <iframe src="./gifs/girl.gif" width="100%" height="100%"></iframe>
+        </div>
+    </div>
+    
+    <div class="p-5 bg-secondary" style="width: 70%"><h4>Work Experiences</h4><br>
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item">
-                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
-                    aria-selected="true">M&H fashun</a>
+                <a class="nav-link active" id="item1-tab" data-toggle="tab" href="#item1" role="tab" aria-controls="item1"
+                    aria-selected="true" style="padding: 0.5; font-weight: bold; font-size: x-small;">LemonTree Media</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
-                    aria-selected="false">Moobie</a>
+                <a class="nav-link" id="item2-tab" data-toggle="tab" href="#item2" role="tab" aria-controls="item2"
+                    aria-selected="false" style="padding: 0.5; font-weight: bold; font-size: x-small;">JobberWacky</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
-                    aria-selected="false">Basic Calculator App</a>
+                <a class="nav-link" id="item3-tab" data-toggle="tab" href="#item3" role="tab" aria-controls="item3"
+                    aria-selected="false" style="padding: 0.5; font-weight: bold; font-size: x-small;">WiCS</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
-                    aria-selected="false">Banksy No Na Wa</a>
+                <a class="nav-link" id="item4-tab" data-toggle="tab" href="#item4" role="tab" aria-controls="item4"
+                    aria-selected="false" style="padding: 0.5; font-weight: bold; font-size: x-small;">Liberate</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
-                    aria-selected="false">Maurer Rose</a>
+                <a class="nav-link" id="item5-tab" data-toggle="tab" href="#item5" role="tab" aria-controls="item5"
+                    aria-selected="false" style="padding: 0.5; font-weight: bold; font-size: x-small;">The Creche Project</a>
             </li>
         </ul>
         <div class="tab-content" id="myTabContent">
-            <div class="tab-pane show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta voluptatem
-                    nam ut temporibus corporis dolorem dolores accusamus deserunt veniam eius
-                    maiores suscipit veritatis necessitatibus voluptatum incidunt repellendus
-                    eligendi, consequatur rem?</p>
-                <button class="btn btn-sm mr-2 btn-primary border-dark" type="button">
-                    <span class="btn-text">Show Other Options</span>
-                </button>
+            <div class="tab-pane show active" id="item1" role="tabpanel" aria-labelledby="item1-tab">
+                <p> 
+                    <span style="font-weight: bold;">Web Developer Intern  |  Jul 2020 - Present </span><br><br>
+                    Currently working on creating an MVP for the company's latest platform that will help connect potential clients to content creators. 
+                    Technologies used: Reactjs, Nodejs, JavaScript and other Web Dev tools.<br>
+                    LemonTree Media is a media startup in New York City that focuses on creating interactive media experiences for brands.
+                </p>
+                <a target="blank" href="http://lemontreemedia.io/"><button class="btn btn-sm mr-2 btn-tertiary border-dark" type="button">
+                    <span class="btn-text">More Info</span>
+                </button></a>
             </div>
-            <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur earum
-                    consequuntur accusamus reprehenderit quae sint, quia eligendi sed quidem
-                    neque omnis odit suscipit dolorum corrupti minima quas temporibus recusandae
-                    vel.</p>
+            <div class="tab-pane" id="item2" role="tabpanel" aria-labelledby="item2-tab">
+                <p>
+                    <span style="font-weight: bold;">Social Media Marketing and R&D Intern  |  Jul 2020 - Present </span><br><br>
+                    Currently working with the Social Media Marketing, Website, and Research and Development teams of this venture.<br>
+                    JobberWacky is a collaborative initiative started by university students from across the world. Our objective is to bring niche vocations into the mainstream and
+                    give people access to the career stories of (off the top of our heads) certifiable saree drapers, chocolate
+                    tasters, bodybuilders, bikers, paragliders and many more. 
+                </p>
                 <button class="btn btn-sm mr-2 btn-secondary border-dark" type="button">
-                    <span class="btn-text">Show Other Options</span>
+                    <span class="btn-text">More Info</span>
                 </button>
             </div>
-            <div class="tab-pane" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea ad tempora, quam
-                    quisquam, neque possimus ducimus eligendi cumque ipsum autem nam magnam
-                    atque, ipsam sint inventore repellat iste sunt harum!</p>
+            <div class="tab-pane" id="item3" role="tabpanel" aria-labelledby="item3-tab">
+                <p>
+                    <span style="font-weight: bold;">Head of Marketing  |  Jun 2020 - Present </span><br><br>
+                    Currently working as the Head of Marketing for the Women in Computing Society (WiCS) at Ashoka University, by handling the social media and email outreach for our various events. 
+                    Additionally, working with the Events department to find speakers and organising multiple flagship events.
+                </p>
                 <button class="btn btn-sm mr-2 btn-tertiary border-dark" type="button">
-                    <span class="btn-text">Show Other Options</span>
+                    <span class="btn-text">More Info</span>
                 </button>
             </div>
-            <div class="tab-pane" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea ad tempora, quam
-                    quisquam, neque possimus ducimus eligendi cumque ipsum autem nam magnam
-                    atque, ipsam sint inventore repellat iste sunt harum!</p>
-                <button class="btn btn-sm mr-2 btn-tertiary border-dark" type="button">
-                    <span class="btn-text">Show Other Options</span>
-                </button>
+            <div class="tab-pane" id="item4" role="tabpanel" aria-labelledby="item4-tab">
+                <p>
+                    <span style="font-weight: bold;">Chief Operations Officer (COO)  |  May 2019 - Oct 2019 </span><br><br>
+                    Handled general operations of the organization, started and headed our
+                    global Student Ambassador Program (SAP), managed interns, outreach, partnerships with NGOs, schools, and hospitals, and
+                    marketing.<br>
+                    Liberate is an international organization for people with Obsessive-Compulsive Disorder (OCD) or with troublesome
+                    intrusive thoughts. With an app of the same name (2,000+ downloads), Liberate is an organization led by a
+                    team of talented 15-21 year olds and aims to be a safe space and a resource for anyone with OCD or who may choose to
+                    track their obsessions and compulsions and regulate them.
+                </p>
+                <a target="blank" href="https://www.myocdfighter.com/"><button class="btn btn-sm mr-2 btn-secondary border-dark" type="button">
+                    <span class="btn-text">More Info</span>
+                </button></a>
             </div>
-            <div class="tab-pane" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea ad tempora, quam
-                    quisquam, neque possimus ducimus eligendi cumque ipsum autem nam magnam
-                    atque, ipsam sint inventore repellat iste sunt harum!</p>
-                <button class="btn btn-sm mr-2 btn-tertiary border-dark" type="button">
-                    <span class="btn-text">Show Other Options</span>
-                </button>
+            <div class="tab-pane" id="item5" role="tabpanel" aria-labelledby="item5-tab">
+                <p>
+                    <span style="font-weight: bold;">Founder  |  Mar 2018 - Present </span><br><br>
+                    Led the Ibblur Creche Project in March 2018, where I raised 12,000 USD to start a playschool for the slum children in my
+                    neighbourhood. The creche currently supports around 80 children and their families. In 2019, the creche received donations from the Rotary Club of Delden-Borne Netherlands. 
+                    In early 2020, the creche received an additional donation by the chairman of Wipro, Mr. Azim Premji, with plans in place to start many such creches in the next few years.<br>
+                    Featured in <a target="blank" href="https://economictimes.indiatimes.com/news/politics-and-nation/school-kids-set-up-crche-for-the-poor-via-crowd-funding/articleshow/64379582.cms">The Economic Times</a>,
+                    <a target="blank" href="https://www.newskarnataka.com/features/budding-teenage-social-worker-helps-raise-rs-9-lakhs-for-creche-in-bluru">News Karnataka</a>,
+                    <a target="blank" href="https://rotarynewsonline.org/an-interactor-helps-build-daycare-for-underprivileged-children/">Rotary News</a>, and 
+                    <a target="blank" href="https://m.dailyhunt.in/news/africa/english/news+karnataka-epaper-newskarn/budding+teenage+social+worker+helps+raise+rs+9+lakhs+for+creche+in+b+luru-newsid-88641870">DailyHunt</a>.
+                </p>
+                <a target="blank" href="https://tinyurl.com/y295fv7b"><button class="btn btn-sm mr-2 btn-tertiary border-dark" type="button">
+                    <span class="btn-text">More Info</span>
+                </button></a>
             </div>
         </div>
     </div>
+</section>
 
-    <div id="app" style="height: 100vh">
-        <!-- Webamp will attempt to center itself within this div -->
+<section class="section section-lg bg-secondary overflow-hidden" style="margin-top: -7.5%; padding-top: 0; margin-left: 0rem; display: flex; flex-wrap: wrap; flex-direction: row; align-content: space-between;">
+    
+    <div class="p-5 bg-secondary" style="width: 70%">
+        <h4>Key Projects</h4><br>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="item1-tab" data-toggle="tab" href="#item1" role="tab" aria-controls="item1"
+                    aria-selected="true" style="padding: 0.5; font-weight: bold; font-size: x-small;">M&H Fashun</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="item2-tab" data-toggle="tab" href="#item2" role="tab"
+                    aria-controls="item2" aria-selected="false"
+                    style="padding: 0.5; font-weight: bold; font-size: x-small;">Basic Calculator App</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="item3-tab" data-toggle="tab" href="#item3" role="tab"
+                    aria-controls="item3" aria-selected="false"
+                    style="padding: 0.5; font-weight: bold; font-size: x-small;">Moobie</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="item4-tab" data-toggle="tab" href="#item4" role="tab"
+                    aria-controls="item4" aria-selected="false"
+                    style="padding: 0.5; font-weight: bold; font-size: x-small;">Maurer Rose</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="item5-tab" data-toggle="tab" href="#item5" role="tab"
+                    aria-controls="item5" aria-selected="false"
+                    style="padding: 0.5; font-weight: bold; font-size: x-small;">Forkify</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane show active" id="item1" role="tabpanel" aria-labelledby="item1-tab">
+                <p>
+                    <span style="font-weight: bold;">M&H - An e-commerce site for "high-end fashun" 👗💻</span><br>
+                    M&H is an ecommerce platform for "high-end fashun". I tried to model Amazon (but really more like Flipkart) in terms of
+                    basic features. All products and their details have been taken from H&M (hence the name). This is a full stack
+                    application and uses the MERN stack - ReactJS as a frontend framework, Node + Express on the
+                    backend, and MongoDB as a database.<br>
+                    Technologies used: ReactJS, Node, Express, MongoDB, other Web Dev tools like React-Redux, Babel, etc.<br><br>
+                    <img class="center" src="./imgs/M&H-demo.gif" style="max-width: 70%; max-height: 90%;"/>
+                </p>
+                <a target="blank" href="https://github.com/tanviroy/fashun"><button class="btn btn-sm mr-2 btn-tertiary border-dark" type="button">
+                    <span class="btn-text">View Project on GitHub</span>
+                </button></a>
+            </div>
+            <div class="tab-pane" id="item2" role="tabpanel" aria-labelledby="item2-tab">
+                <p>
+                    <span style="font-weight: bold;">Basic Calculator App 📱💙</span><br>
+                    This is a Basic Calculator App. The word "basic" is important as it isn't a replacement to the calculator app on most devices. I had come across Flutter
+                    this last month and after installing Android Studio and Flutter, and learning Dart, playing around with Flutter was
+                    really fun.<br>
+                    Technologies used: Android Studio, Dart, Flutter<br><br>
+                    <img class="center" src="./imgs/app-demo.gif" style="max-width: 20%; max-height: 40%;"/>
+                </p>
+                <a target="blank" href="https://github.com/tanviroy/basic-calculator-app"><button class="btn btn-sm mr-2 btn-tertiary border-dark" type="button">
+                    <span class="btn-text">View Project on GitHub</span>
+                </button></a>
+            </div>
+            <div class="tab-pane" id="item3" role="tabpanel" aria-labelledby="item3-tab">
+                <p>
+                    <span style="font-weight: bold;">Moobie - the Movie Finding Web App 🎬🔍</span><br>
+                    Moobie is a Movie Finding Web App created using the Open Movie Database (OMDb) API. This is a project I made primarily
+                    to understand how APIs work and practice a few other things I already knew.<br>
+                    Technologies used: JavaScript, jQuery <br><br>
+                    <img class="center" src="./imgs/moobie.png" style="max-width: 70%; max-height: 90%;"/>
+                </p>
+                <a target="blank" href="https://github.com/tanviroy/moobie"><button class="btn btn-sm mr-2 btn-tertiary border-dark" type="button">
+                    <span class="btn-text">View Project on GitHub</span>
+                </button></a>
+            </div>
+            <div class="tab-pane" id="item4" role="tabpanel" aria-labelledby="item4-tab">
+                <p>
+                    <span style="font-weight: bold;">Maurer Rose Visualser 🌹📐</span><br>
+                    I have always been intrigued by sprirographs - I distinctly remember drawing every single shape I could with them as a 7
+                    year old and assigning themse shapes unique names and personalities. Many years later, I have come to appreciate the
+                    math behind these beautiful patterns. Rose mathematics will never fail to intrigue me.<br>
+                    Technologies used: JavaScript (Vanilla) <br><br>
+                    <img class="center" src="./imgs/rose.png" style="max-width: 70%; max-height: 90%;"/>
+                </p>
+                <a target="blank" href="https://github.com/tanviroy/maurer-rose"><button class="btn btn-sm mr-2 btn-tertiary border-dark" type="button">
+                    <span class="btn-text">View Project on GitHub</span>
+                </button></a>
+                <a target="blank" href="https://maurer-rose.netlify.app/"><button class="btn btn-sm mr-2 btn-secondary border-dark" type="button">
+                    <span class="btn-text">View Deployed Site</span>
+                </button></a>
+            </div>
+            <div class="tab-pane" id="item5" role="tabpanel" aria-labelledby="item5-tab">
+                <p>
+                    <span style="font-weight: bold;">Forkify - A Recipe Finding Web Application. This was the final project as part of a Udemy Course 🥣🍴</span><br>
+                    Forkify is a recipe finding web application which uses data from the Forkify API. While it is a fairly basic web
+                    application, it can be used as a guide to cook one's favorite dish. Beyond accessing recipes from different sources
+                    online, it also provides information on the number and amount of ingredients needed to build a specific dish according
+                    to the number of people to serve.<br>
+                    Technologies used: JavaScript(Vanilla), Webpack, Babel, etc. <br><br>
+                    <img class="center" src="./imgs/forkify.gif" style="max-width: 70%; max-height: 90%;"/>
+                </p>
+                <a target="blank" href="https://github.com/tanviroy/forkify"><button class="btn btn-sm mr-2 btn-tertiary border-dark" type="button">
+                    <span class="btn-text">View Project on GitHub</span>
+                </button></a>
+                <a target="blank" href="https://tanviroy-forkify.netlify.app/"><button class="btn btn-sm mr-2 btn-secondary border-dark" type="button">
+                    <span class="btn-text">View Deployed Site</span>
+                </button></a>
+            </div>
+        </div>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-    <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script>
-    <script>
-        const Webamp = window.Webamp;
-        new Webamp({
-            initialTracks: [{
-                metaData: {
-                    artist: "DJ Mike Llama",
-                    title: "Llama Whippin' Intro"
-                },
-                url: "never-gonna-give-you-up.mp3",
-                duration: 213
-            }], initialSkin: {
-                    url: "Windows_Classic.wsz"
-            },
-        }).renderWhenReady(document.getElementById("app"));
-    </script>
+    <div class="card card-tertiary" style="width: 29%; height: 21rem !important">
+        <div class="card-header text-center">
+            <span>Welcome to my Website!</span>
+        </div>
+        <div class="card-body">
+            <iframe src="./gifs/cube.gif" width="100%" height="100%"></iframe>
+        </div>
+    </div>
+</section>
 
     <footer class="footer">
         <nav id="navbar-main"
@@ -197,6 +324,27 @@
             </div>
         </nav>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script>
+    <script>
+        const Webamp = window.Webamp;
+        new Webamp({
+            initialTracks: [{
+                metaData: {
+                    artist: "DJ Mike Llama",
+                    title: "Llama Whippin' Intro"
+                },
+                url: "never-gonna-give-you-up.mp3",
+                duration: 213
+            }], initialSkin: {
+                    url: "Windows_Classic.wsz"
+            },
+        }).renderWhenReady(document.getElementById("app"));
+    </script>
 
 </body>
 </html>
