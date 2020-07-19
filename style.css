@@ -107,6 +107,11 @@ button.bg-gray-dark:focus {
     z-index: 3 !important;
 }
 
+.z-4 {
+    position: relative;
+    z-index: 4 !important;
+}
+
 .bw-md {
     border-width: 0.125rem !important;
 }
