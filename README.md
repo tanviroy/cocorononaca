@@ -1,6 +1,6 @@
 # cocorononaca - aka personal site v1 🐉🌻
 #### Date of completion: 20th July 2020
-https://tanviroy.netlify.app/
+https://tanviroy.com/
 
 ## Description
 Here's a portfolio website with a classic Windows 95 themed UI. This will be replaced by a better website for my personal use. I really just needed an excuse to mess with the Windows 95 themed Bootstrap kit. Added icons and some additional features as my own touch. 
